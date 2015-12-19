@@ -1,8 +1,8 @@
 ---
 layout: page
-title: Friendly Links
+title: Links
 permalink: /links/
+
 ---
 
-> [FengPan](http://www.fengpanhome.com/)  
-> 
+    [FengPan](http://www.fengpanhome.com/)
