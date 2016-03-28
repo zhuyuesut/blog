@@ -9,3 +9,4 @@ github_username:  zhuyuesut
 
 # Build settings
 markdown: kramdown
+highlighter: rouge
