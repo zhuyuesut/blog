@@ -1,6 +1,7 @@
 ---
 
 layout: post
+title:  "Ten days in Beijing"
 author: Zhu Yue
 
 ---
