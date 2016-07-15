@@ -1,6 +1,7 @@
 ---
 
 layout: post
+title: "有感：我会一直和你在一起，那样的日子一定不孤单"
 author: Zhu Yue
 
 ---
