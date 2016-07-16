@@ -1,8 +1,7 @@
 #include <stdio.h>
 #include <string.h>
 #include <time.h>
-
-#define CCT (+8)
+#include <stdlib.h>
 
 int main() {
 
@@ -13,7 +12,10 @@ int main() {
 	
 	printf("new blog filename:");
 	fgets(name, sizeof name, stdin);
-	*strchr(name, '\n') = '\0';
+	char *found = strchr(name, '\n');
+	if (found != NULL) {
+		*found = '\0';
+	}
 
 
 	// get date as yyyy-mm-dd
@@ -21,25 +23,26 @@ int main() {
 	char date[11];
 
 	time_t rt;
-	struct tm *i;
+	struct tm *st;
 	time(&rt);
-	i = gmtime(&rt);
-	sprintf(date, "%d-%02d-%02d", i->tm_year+1900, i->tm_mon+1, i->tm_mday);
+	st = gmtime(&rt);
+	sprintf(date, "%d-%02d-%02d", (st->tm_year+1900) % 1e4, st->tm_mon+1, st->tm_mday);
 
 
 	// get filename with date
-	
-	char filename[130];
-	sprintf(filename, "_posts/%s-%s.md", date, name);
+	//
+	const char *format = "_posts/%s-%s.md";
+	char filename[sizeof format + sizeof date + sizeof name];
+	sprintf(filename, format, date, name);
 
 
 	// add new post file
+	//
+	FILE * file = fopen(filename, "w");
 
-	FILE * file = fopen(filename, "w+");
-
-	if(file == NULL) {
-		perror("fopen:");
-		return(-1);
+	if (file == NULL) {
+		perror("fopen: ");
+		return EXIT_FAILRUE;
 	}
 	fputs("---\n\nlayout: post\ntitle: \"\"\nauthor: Zhu Yue\n\n---\n", file);
 	
@@ -50,7 +53,7 @@ int main() {
 	//
 	printf("new post file: %s\n", filename);
 	
-	return(0);
+	return EXIT_SUCCESS;
 }
 
 
