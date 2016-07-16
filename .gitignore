@@ -1,1 +1,3 @@
-/*.sh
+.sass-cache/
+_site/
+*.sh
