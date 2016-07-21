@@ -15,6 +15,8 @@ permalink: /info-of-me/
 
 邮箱：zhuyue.sut@icloud.com
 
+Git: github.com/zhuyuesut/
+
 优点：观察、思考、理解和学习能力不错
 
 缺点：英语很尴尬（接近四级水平）
