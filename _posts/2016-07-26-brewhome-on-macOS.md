@@ -106,7 +106,7 @@ https://developer.apple.com/xcode/downloads/
 
 我访问了苹果[网站](https://developer.apple.com/xcode/downloads/ )发现Xcode 8.0指的是我已经安装的Xcode Beta.app，版本为（Version 8.0 beta 3 (8S174q)）
 
-再回头一看``gcc --version``命令的输出，嗯，可能是*brew home*没发现*Xcode 8.0*的存在，另附输出如下：
+再回头一看``gcc --version``命令的输出，嗯，可能是*homebrew*没发现*Xcode 8.0*的存在，另附输出如下：
 
 ```
 Configured with: --prefix=/Applications/Xcode.app/Contents/Developer/usr --with-gxx-include-dir=/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk/usr/include/c++/4.2.1
