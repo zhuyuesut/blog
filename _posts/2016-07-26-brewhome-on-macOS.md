@@ -81,9 +81,9 @@ When installing/updating/upgrading any taps, you get the following
 Warning: You are using OS X 10.12. We do not provide support for this pre-release version. You may encounter build failures or other breakages.
 ```
 
-＊ brew update 命令每次使用必敲
-＊ sudo chown -R $(whoami) $(brew --prefix) 重装升级系统必敲
-＊ brew doctor 命令结果如下：
+＊ ``brew update`` 命令每次使用必敲
+＊ ``sudo chown -R $(whoami) $(brew --prefix)`` 重装升级系统必敲
+＊ ``brew doctor`` 命令结果如下：
 
 ```
 zhuyue@zhuyue:~|⇒  brew doctor
@@ -106,7 +106,7 @@ https://developer.apple.com/xcode/downloads/
 
 我访问了苹果[网站](https://developer.apple.com/xcode/downloads/ )发现Xcode 8.0指的是我已经安装的Xcode Beta.app，版本为（Version 8.0 beta 3 (8S174q)）
 
-再回头一看*gcc --version*命令的输出，嗯，可能是*brew home*没发现*Xcode 8.0*的存在，另附输出如下：
+再回头一看``gcc --version``命令的输出，嗯，可能是*brew home*没发现*Xcode 8.0*的存在，另附输出如下：
 
 ```
 Configured with: --prefix=/Applications/Xcode.app/Contents/Developer/usr --with-gxx-include-dir=/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk/usr/include/c++/4.2.1
@@ -120,7 +120,7 @@ UI界面更改如下（中途需要输入密码）：
 
 ![use ui set xcode 7.3 to 8.0](/assets/img/use-ui-set-xcode-to-8.0.png)
 
-(据说用*xcode-select*命令也能改，但我没有尝试)
+(据说用``xcode-select``命令也能改，但我没有尝试)
 
 之后测试如下：
 
@@ -144,7 +144,7 @@ You may encounter build failures or other breakages.
 Please create pull-requests instead of filing issues.
 ```
 
-*brew upgrade*与``brew install gcc``两个命令均能正常使用，功能正常（不知道编译比原来慢很多是不是我的错觉）
+``brew upgrade``与``brew install gcc``两个命令均能正常使用，功能正常（不知道编译比原来慢很多是不是我的错觉）
 
 至此问题解决。
 
