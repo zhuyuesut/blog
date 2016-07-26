@@ -6,7 +6,7 @@ author: Zhu Yue
 
 ---
 
-今天正准备看《Ｃ++ Ｐrimer》中文第五版，由于系统里面的gcc实际上clang，想到了在自己电脑上安装gcc
+今天正准备看《Ｃ++ Ｐrimer》中文第五版，由于系统里面的*gcc*实际上*clang*，想到了在自己电脑上安装*gcc*
 
 ```
 zhuyue@zhuyue:~|⇒  gcc --version
@@ -63,9 +63,10 @@ https://github.com/Homebrew/homebrew-core/issues
 ...
 ```
 
-初步诊断是由于我升级了macOS系统，也就是OS X 10.12
+初步诊断是由于我升级了*macOS*系统，也就是OS X 10.12
 
 Google brew home on macOS，传送至这里 https://github.com/Homebrew/brew/issues/364，内容大概如下：
+
 ```
 Support for macOS (OS X) 10.12.0 #364
 
@@ -80,7 +81,9 @@ When installing/updating/upgrading any taps, you get the following
 Warning: You are using OS X 10.12. We do not provide support for this pre-release version. You may encounter build failures or other breakages.
 ```
 
-brew update每次必敲，sudo chown -R $(whoami) $(brew --prefix)重装升级系统必敲，就差brew doctor命令，结果如下：
+＊ brew update 命令每次使用必敲
+＊ sudo chown -R $(whoami) $(brew --prefix) 重装升级系统必敲
+＊ brew doctor 命令结果如下：
 
 ```
 zhuyue@zhuyue:~|⇒  brew doctor
@@ -99,22 +102,25 @@ Xcode can be updated from
 https://developer.apple.com/xcode/downloads/
 ```
 
-第一个warning据说暂时解决不了，因为macOS还没稳定，大家都在努力。
+第一个warning暂时解决不了，macOS还没稳定，大家都在努力。
 
-我来到了https://developer.apple.com/xcode/downloads/ 这个网址发现Xcode 8.0指的是我已经安装的Xcode Beta.app，版本为（Version 8.0 beta 3 (8S174q)）
+我访问了苹果[网站](https://developer.apple.com/xcode/downloads/ )发现Xcode 8.0指的是我已经安装的Xcode Beta.app，版本为（Version 8.0 beta 3 (8S174q)）
 
-回头一看gcc --version命令的输出，嗯，可能是brewhome没发现Xcode 8.0的存在，另附输出如下：
+再回头一看*gcc --version*命令的输出，嗯，可能是*brew home*没发现*Xcode 8.0*的存在，另附输出如下：
+
+```
 Configured with: --prefix=/Applications/Xcode.app/Contents/Developer/usr --with-gxx-include-dir=/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk/usr/include/c++/4.2.1
 Apple LLVM version 7.3.0 (clang-703.0.31)
 Target: x86_64-apple-darwin16.0.0
 Thread model: posix
 InstalledDir: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin
+```
 
 UI界面更改如下（中途需要输入密码）：
 
 ![use ui set xcode 7.3 to 8.0](/assets/img/use-ui-set-xcode-to-8.0.png)
 
-(据说用xcode-select命令也能改，但我没有尝试)
+(据说用*xcode-select*命令也能改，但我没有尝试)
 
 之后测试如下：
 
@@ -138,7 +144,7 @@ You may encounter build failures or other breakages.
 Please create pull-requests instead of filing issues.
 ```
 
-brew upgrade与brew install gcc命令均能正常使用，功能正常（不知道编译比原来慢很多是不是我的错觉）
+*brew upgrade*与``brew install gcc``两个命令均能正常使用，功能正常（不知道编译比原来慢很多是不是我的错觉）
 
 至此问题解决。
 
