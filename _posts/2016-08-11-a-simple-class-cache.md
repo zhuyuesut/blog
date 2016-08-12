@@ -11,35 +11,57 @@ author: Zhu Yue
 ```cpp
 /* cache.hpp */
 
+#ifndef cache_hpp
+#define cache_hpp
+
 #include <iostream>
 
 namespace zhuyuesut {
-    template <class T> class Cache {
-        T t;
+    template <typename ValueType>
+    class Cache {
+        ValueType value;
+        
     public:
-        Cache() = default;
-        Cache(const T &i) : t(i) {};
-        template<class M> Cache<T> operator>>(M f) {
-            return Cache<T>(f(t));
+        Cache () = default;
+        
+        Cache (const ValueType& i) : value(i) {};
+        
+        Cache (ValueType&& i) : value(std::move(i)) {};
+        
+        template<typename FunctionType>
+        Cache operator>> (FunctionType func) {
+            return Cache(func(value));
         }
-        std::ostream &operator>>(std::ostream &os) {
-            return os << t;
+        
+        std::ostream& operator>> (std::ostream &os) {
+            return os << value;
         }
-        Cache<T> &operator<<(std::istream &is) {
-            is >> t;
+        
+        Cache& operator<< (std::istream &is) {
+            is >> value;
             return *this;
         }
-        operator T() {
-            return t;
+        
+        operator ValueType () {
+            return value;
         }
     };
+    
     class CacheConstruct {
     public:
-        template<class T> Cache<T> operator()(const T &i) {
-            return Cache<T>(i);
+        template<typename ValueType>
+        Cache<ValueType> operator() (const ValueType& i) {
+            return Cache<ValueType>(i);
+        }
+        
+        template<typename ValueType>
+        Cache<ValueType> operator() (ValueType&& i) {
+            return Cache<ValueType>(std::move(i));
         }
     } make_cache;
 }
+
+#endif /* cache_hpp */
 ```
 ```cpp
 /* test_cache.cpp */
