@@ -1,7 +1,7 @@
 ---
 
 layout: post
-title: "今日实现 LOG 宏使用 `__LINE__` 和 `__func__` 所得"
+title: "宏LOG编写练习与宏__LINE__和__func__使用随笔"
 author: Zhu Yue
 
 ---
@@ -44,11 +44,11 @@ author: Zhu Yue
 
 * 不妨设语句最终位置在 `main` 函数中，那么 `__FUNCTION__` 的值为 `"main"` ，
 而它的类型将会是 `const char [sizeof("main")]` ，也就是 `const char [5]` 。
-所以挨着的字符串常量可以自动连接的这种语法就不再适用了。
+所以挨着的字符串常量可以自动连接的这种语法就不再适用了。 `__func__` 和 `__FUNCTION__` 一样。
 
 最后 `LOG` 宏定义代码如下：
 
-```
+```cpp
 #define LOG(...) do {\
         log(std::string("Log: " "(" #__VA_ARGS__ "), function ")\
                 .append(__FUNCTION__)\
