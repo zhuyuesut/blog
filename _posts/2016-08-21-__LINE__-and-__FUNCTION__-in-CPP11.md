@@ -24,7 +24,7 @@ author: Zhu Yue
 
 下面是例子，其中 `log` 是一个函数对象。
 
-```
+```cpp
 #define LOG(...) do {\
         log(__FILE__ ":" STR(__LINE__);\
         log(__VA_ARGS__);\
