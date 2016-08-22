@@ -10,5 +10,8 @@ github_username:  zhuyuesut
 exclude: [LICENSE, add-new-post.c add-new-post.sh CNAME]
 
 # Build settings
-markdown: kramdown
+# markdown: kramdown
+markdown: redcarpet
+redcarpet:
+    extensions: ["fenced_code_blocks", "autolink", "tables", "strikethrough"]
 highlighter: norouge
