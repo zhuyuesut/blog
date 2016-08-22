@@ -61,7 +61,7 @@ author: Zhu Yue
 
 测试输出格式样例如下：
 
-```
+```txt
 Log: (a, b, c, d, e), function main, file /Users/zhuyue/CppClassLog/main.cpp, line 26, value(s) 	2	3.1	$	true	string.
 ```
 
