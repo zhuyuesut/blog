@@ -40,14 +40,8 @@ pre.line-numbers > code {
 }
 @import "bourbon";
 
-body {
-  background-color: #eee;
-  color: #555;
-}
-
 pre {
   font-family: monospace;
-  background-color: #fff;
   width: em(440);
   margin: 4em auto;
   padding: 0.5em;
@@ -57,7 +51,6 @@ pre {
   counter-reset: line;
   
   span {
-    display: block;
     line-height: 1.5rem;
     
     &:before {
