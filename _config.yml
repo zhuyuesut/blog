@@ -13,5 +13,5 @@ exclude: [LICENSE, add-new-post.c add-new-post.sh CNAME]
 # markdown: kramdown
 markdown: redcarpet
 redcarpet:
-    extensions: ["fenced_code_blocks", "autolink", "tables", "strikethrough"]
+    extensions: ["no_intra_emphasis", "fenced_code_blocks", "autolink", "tables", "strikethrough", "space_after_headers"]
 highlighter: norouge
