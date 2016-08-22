@@ -1,7 +1,7 @@
 ---
 
 layout: post
-title: "闲来无事写个Ｃache类来练习Ｃ＋＋"
+title: "闲来无事写个 Cache 类来练习 C++"
 author: Zhu Yue
 
 ---
@@ -63,6 +63,7 @@ namespace zhuyuesut {
 
 #endif /* cache_hpp */
 ```
+
 ```cpp
 /* test_cache.cpp */
 
@@ -84,9 +85,10 @@ int main(int argc, const char * argv[]) {
     return 0;
 }
 ```
+
 测试结果如下 
 
-```
+```txt
 Result is 42.
 What's is you name? ZhuYue
 Hello, ZhuYue!
