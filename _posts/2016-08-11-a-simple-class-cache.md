@@ -8,7 +8,7 @@ author: Zhu Yue
 
 代码如下： 
 
-```cpp
+```cpp lineNumbers
 /* cache.hpp */
 
 #ifndef cache_hpp
