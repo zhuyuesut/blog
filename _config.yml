@@ -7,6 +7,8 @@ url: "http://blog.jinny.love" # the base hostname & protocol for your site
 twitter_username: 
 github_username:  zhuyuesut
 
+exclude: [LICENSE, add-new-post.c add-new-post.sh CNAME]
+
 # Build settings
 markdown: kramdown
 highlighter: norouge
