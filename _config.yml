@@ -11,4 +11,4 @@ exclude: [LICENSE, add-new-post.c, add-new-post.sh, CNAME, .gitignore]
 
 # Build settings
 markdown: kramdown
-highlighter: norouge
+highlighter: rouge
