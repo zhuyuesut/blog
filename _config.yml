@@ -6,12 +6,9 @@ baseurl: # the subpath of your site, e.g. /blog/
 url: "http://blog.jinny.love" # the base hostname & protocol for your site
 twitter_username: 
 github_username:  zhuyuesut
-
-exclude: [LICENSE, add-new-post.c add-new-post.sh CNAME]
+ 
+exclude: [LICENSE, add-new-post.c, add-new-post.sh, CNAME, .gitignore]
 
 # Build settings
-# markdown: kramdown
-markdown: redcarpet
-redcarpet:
-    extensions: ["no_intra_emphasis", "fenced_code_blocks", "autolink", "tables", "strikethrough", "space_after_headers"]
+markdown: kramdown
 highlighter: norouge
