@@ -11,4 +11,10 @@ exclude: [LICENSE, add-new-post.c, add-new-post.sh, CNAME, .gitignore]
 
 # Build settings
 markdown: kramdown
+kramdown:
+    input: GFM # Enable GitHub Flavored Markdown (fenced code blocks)
+    extensions:
+    - autolink
+    - footnotes
+    - smart
 highlighter: rouge
