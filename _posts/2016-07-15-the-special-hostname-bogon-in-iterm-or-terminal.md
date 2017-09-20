@@ -1,9 +1,8 @@
 ---
-
 layout: post
 title:  "终端显示hostname的位置显示为字符串bogon"
 author: Zhu Yue
-
+categories: other
 ---
 如图所示，打开终端突然发现有些不对，应该显示hostname的位置显示的却是字符串“bogon”，Google一下才知道出问题的并不是我一个。
 

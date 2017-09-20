@@ -1,5 +1,7 @@
 .sass-cache/
 _site/
 *.sh
-.vscode/
+
+Desktop.ini
 .DS_Store
+

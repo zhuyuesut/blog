@@ -1,0 +1,24 @@
+---
+layout: default
+title: Resume
+category: resume
+---
+<iframe src="/resume/index.html" frameborder="0" scrolling="no" id="external-frame"></iframe>
+<script>
+function setIframe(iframe) {
+    if (iframe) {
+        var iframeWin = iframe.contentWindow || iframe.contentDocument.parentWindow;
+        if (iframeWin.document.body) {
+            iframe.width = document.getElementsByClassName('inner header-container')[0].offsetWidth;
+            iframe.height = iframeWin.document.documentElement.scrollHeight || iframeWin.document.body.scrollHeight;
+        }
+    }
+};
+
+window.onload = function () {
+    setIframe(document.getElementById('external-frame'));
+};
+window.onresize = function () {
+    setIframe(document.getElementById('external-frame'));
+};
+</script>

@@ -1,9 +1,8 @@
 ---
-
 layout: post
 title: "闲来无事写个 Cache 类来练习 C++"
 author: Zhu Yue
-
+categories: other
 ---
 
 代码如下： 

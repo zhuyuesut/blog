@@ -1,12 +1,23 @@
 <head>
-  <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> {{ page.title }} </title>
+    <link rel="stylesheet" href="/assets/css/site.css">
+    <link href="//cdn.bootcss.com/font-awesome/4.4.0/css/font-awesome.css" rel="stylesheet">
+    <link href="/favicon.ico" rel="shortcut icon" type="image/x-icon" />
+    {% if page.description %}<meta name="description" content="{{page.description}}" />{% endif %}
+    <link href="/feed.xml" type="application/rss+xml" rel="alternate" title="Latest 10 blog posts (atom)" />
 
-  <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
-  <meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
+    {% if page.url == '/index.html' %}
+        <link rel="alternate" hreflang="en" href="/" />
+    {% elsif page.url == '/index_cn.html' %}
+        <link rel="alternate" hreflang="cn" href="/cn/" />
+    {% endif %}
 
-  <link rel="stylesheet" href="{{ "/css/main.css" | prepend: site.baseurl }}">
-  <link rel="stylesheet" href="{{ "/assets/highlight.js/9.6.0/atom-one-light.css" | prepend: site.baseurl }}">
-  <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
+    {{ page.extra_head }}
+
+    {% if page.category == 'blog' and page.photo %}
+        <meta property="og:image" content="/assets/img/posts/{{ page.photo }}" />
+    {% endif %}
+    <script src='/assets/js/jquery/jquery-3.2.1.min.js'></script>
 </head>

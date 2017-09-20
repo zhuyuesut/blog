@@ -1,20 +1,32 @@
 # Site settings
 title: 容我三思
+name: Yue Zhu & Jinny's homepage
 email: zhuyue.sut@icloud.com
 description: > # this means to ignore newlines until "baseurl:"
 baseurl: # the subpath of your site, e.g. /blog/
 url: "http://blog.jinny.love" # the base hostname & protocol for your site
-twitter_username: 
+
+# permalink: /blog/:title.html
+timezone: Asia/Shanghai
+
+safe: true
+lsi: false
+
 github_username:  zhuyuesut
- 
+
 exclude: [LICENSE, add-new-post.c, add-new-post.sh, CNAME, .gitignore]
 
 # Build settings
 markdown: kramdown
 kramdown:
-    input: GFM # Enable GitHub Flavored Markdown (fenced code blocks)
-    extensions:
-    - autolink
-    - footnotes
-    - smart
-highlighter: rouge
+  input: GFM # Enable GitHub Flavored Markdown (fenced code blocks)
+  extensions:
+  - autolink
+  - footnotes
+  - smart
+  hard_wrap: false
+
+syntax_highlighter: rouge
+
+plugins:
+    - jekyll-sitemap

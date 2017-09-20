@@ -1,9 +1,8 @@
 ---
-
 layout: post
 title: "quick sort"
 author: Zhu Yue
-
+categories: other
 ---
 
 ```c++

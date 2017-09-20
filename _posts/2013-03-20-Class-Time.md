@@ -1,9 +1,8 @@
 ---
-
 layout: post
 title: Class Time
 author: Zhu Yue
-
+categories: other
 ---
 
 ```c++

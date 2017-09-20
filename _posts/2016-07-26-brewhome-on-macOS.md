@@ -1,9 +1,8 @@
 ---
-
 layout: post
 title: "在macOS上使用brew home的纪录"
 author: Zhu Yue
-
+categories: other
 ---
 
 今天正准备看《Ｃ++ Ｐrimer》中文第五版，由于系统里面的*gcc*实际上*clang*，想到了在自己电脑上安装*gcc*

@@ -1,10 +1,12 @@
 ---
-
 layout: post
-title: 最近在看机器学习
+title: "最近在看机器学习"
 author: Zhu Yue
-
+categories: other
 ---
+
+
+- [ ] ff
 
 ###笔记
 
@@ -48,5 +50,3 @@ author: Zhu Yue
 守不住还鄙夷它的，扭曲，人不可以无耻，无耻之耻，无耻矣。
 守得住的人，我们往往称他们做圣贤。
 本来是人人皆可为圣贤的。
-
-- [ ] fefeve

@@ -1,9 +1,8 @@
 ---
-
 layout: post
 title: "写给编程新手"
 author: Ning Wei
-
+categories: other
 ---
 
 ## 学编程是做什么

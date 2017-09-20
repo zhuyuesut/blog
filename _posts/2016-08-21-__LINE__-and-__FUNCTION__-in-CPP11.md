@@ -1,9 +1,8 @@
 ---
-
 layout: post
 title: "宏LOG编写练习与宏__LINE__和__func__使用随笔"
 author: Zhu Yue
-
+categories: other
 ---
 
 很久以前就写过 `LOG` 宏用来调试，虽然 *Xcode* 用来调试足够用了，

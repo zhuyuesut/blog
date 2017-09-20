@@ -1,9 +1,8 @@
 ---
-
 layout: post
 title: "在《C++ primer 5th》中文版 中发现的笔误汇总"
 author: Zhu Yue
-
+categories: other
 ---
 
 

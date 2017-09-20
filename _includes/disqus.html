@@ -1,0 +1,19 @@
+<section class="comments inner duoshuo">
+    <div id="disqus_thread"></div>
+        <script>
+            var disqus_config = function () {
+                this.page.url = '';
+                this.page.identifier = '{{ page.title }}';
+            };
+            (function() {
+                var d = document, s = d.createElement('script');
+                
+                s.src = '//ilovejinny.disqus.com/embed.js';
+                
+                s.setAttribute('data-timestamp', +new Date());
+                (d.head || d.body).appendChild(s);
+            })();
+        </script>
+        <script id="dsq-count-scr" src="//ilovejinny.disqus.com/count.js" async></script>
+    </div>
+</section>

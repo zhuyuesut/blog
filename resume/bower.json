@@ -1,0 +1,22 @@
+{
+  "name": "responsive-resume",
+  "version": "1.0.0",
+  "homepage": "https://github.com/whatsnewsaes/resume",
+  "authors": [
+    "Seth Coelen <seth@coelen.com> (http://SethCoelen.com)"
+  ],
+  "description": "Responsive HTML/CSS Responsive Resume HTML/CSS Template Template",
+  "main": "scss/main.scss",
+  "keywords": [
+    "resume",
+    "sass",
+    "scss",
+    "responsive"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components"
+  ]
+}
