@@ -15,12 +15,12 @@ Linux编程一站式学习
 设计模式
 
 
-- [x] 那些伤,为什么我还放不下       ! [how_to_forget_when_you_cannot] (assets/img/booklists/how_to_forget_when_you_cannot.jpg)   
+- [x] 那些伤,为什么我还放不下       ![how_to_forget_when_you_cannot](assets/img/booklists/how_to_forget_when_you_cannot.jpg)   
 
 
-- [x] 谁动了我的奶酪?     ! [who_moved_my_cheese] (assets/img/booklists/who_moved_my_cheese.jpg)变化总在时时发生，究竟是谁动了我的“奶酪”，我们又该如何发现新的“奶酪”？
+- [x] 谁动了我的奶酪?     ![who_moved_my_cheese](assets/img/booklists/who_moved_my_cheese.jpg)变化总在时时发生，究竟是谁动了我的“奶酪”，我们又该如何发现新的“奶酪”？
 
-- [x]  我不知道该说什么，关于死亡还是爱情     ! [voices_from_chernobyl] (assets/img/booklists/voices_from_chernobyl.jpg)    1986年4月26日，史上最惨烈的反应炉事故发生在切尔诺贝利。这是史上最浩大的悲剧之一。作者访问了上百位受到切尔诺贝利核灾影响的人民，有无辜的居民、消防员、以及那些被征招去清理灾难现场的人员。他们的故事透露出他们至今仍生活在恐惧、愤怒和不安当中。
+- [x]  我不知道该说什么，关于死亡还是爱情     ![voices_from_chernobyl](assets/img/booklists/voices_from_chernobyl.jpg)    1986年4月26日，史上最惨烈的反应炉事故发生在切尔诺贝利。这是史上最浩大的悲剧之一。作者访问了上百位受到切尔诺贝利核灾影响的人民，有无辜的居民、消防员、以及那些被征招去清理灾难现场的人员。他们的故事透露出他们至今仍生活在恐惧、愤怒和不安当中。
 
       本书将这些访谈以独白的方式呈现，巨细靡遗的写实描绘，使这场悲剧读起来像世界末日的童话。人们坦白地述说着痛苦，细腻的独白让人身历其境却又难以承受。
 
@@ -150,7 +150,7 @@ sorted by name
 ## 正在看
 
 走进修仙         
-拥抱你的内在小孩  ![face_to_face_with_fear_transforming_fear_into_love](face_to_face_with_fear_transforming_fear_into_love.jpg)       当我们年幼时，因为我们的心灵经常不能得到满足和安慰，使得我们的内在形成一个被隐藏的敏感脆弱空间，如同一个没有长大的孩子。等到我们成年后，一旦遇到挫折。就会被这个内在小孩接管，沉浸于痛苦中，做出不负责的行为，造成我们在关系中的挣扎和受苦。孩子是没有勇气和智慧来面对他所遭受的伤害的，但是身为成年人，我们有足够的成熟度，就像安抚、疼惜自己的孩子一样，去疗愈我们的内在小孩。一旦我们的内在小孩得到了疗愈，他的喜悦、创造力、生命力、信任等特质就能毫无阻拦地表达出来，为我们的生活带来无穷的乐趣和希望。
+拥抱你的内在小孩  ![face_to_face_with_fear_transforming_fear_into_love]("face_to_face_with_fear_transforming_fear_into_love.jpg")       当我们年幼时，因为我们的心灵经常不能得到满足和安慰，使得我们的内在形成一个被隐藏的敏感脆弱空间，如同一个没有长大的孩子。等到我们成年后，一旦遇到挫折。就会被这个内在小孩接管，沉浸于痛苦中，做出不负责的行为，造成我们在关系中的挣扎和受苦。孩子是没有勇气和智慧来面对他所遭受的伤害的，但是身为成年人，我们有足够的成熟度，就像安抚、疼惜自己的孩子一样，去疗愈我们的内在小孩。一旦我们的内在小孩得到了疗愈，他的喜悦、创造力、生命力、信任等特质就能毫无阻拦地表达出来，为我们的生活带来无穷的乐趣和希望。
 
 ## 将要看
 
