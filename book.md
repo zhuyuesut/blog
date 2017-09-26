@@ -15,14 +15,11 @@ Linux编程一站式学习
 设计模式
 
 
-- [x] 那些伤,为什么我还放不下       ![how_to_forget_when_you_cannot](assets/img/booklists/how_to_forget_when_you_cannot.jpg)   
+![how_to_forget_when_you_cannot](assets/img/booklists/how_to_forget_when_you_cannot.jpg)  那些伤,为什么我还放不下
 
+![who_moved_my_cheese](assets/img/booklists/who_moved_my_cheese.jpg)  谁动了我的奶酪? 变化总在时时发生，究竟是谁动了我的“奶酪”，我们又该如何发现新的“奶酪”？
 
-- [x] 谁动了我的奶酪?     ![who_moved_my_cheese](assets/img/booklists/who_moved_my_cheese.jpg)变化总在时时发生，究竟是谁动了我的“奶酪”，我们又该如何发现新的“奶酪”？
-
-- [x]  我不知道该说什么，关于死亡还是爱情     ![voices_from_chernobyl](assets/img/booklists/voices_from_chernobyl.jpg)    1986年4月26日，史上最惨烈的反应炉事故发生在切尔诺贝利。这是史上最浩大的悲剧之一。作者访问了上百位受到切尔诺贝利核灾影响的人民，有无辜的居民、消防员、以及那些被征招去清理灾难现场的人员。他们的故事透露出他们至今仍生活在恐惧、愤怒和不安当中。
-
-      本书将这些访谈以独白的方式呈现，巨细靡遗的写实描绘，使这场悲剧读起来像世界末日的童话。人们坦白地述说着痛苦，细腻的独白让人身历其境却又难以承受。
+![voices_from_chernobyl](assets/img/booklists/voices_from_chernobyl.jpg) 我不知道该说什么，关于死亡还是爱情  1986年4月26日，史上最惨烈的反应炉事故发生在切尔诺贝利。这是史上最浩大的悲剧之一。作者访问了上百位受到切尔诺贝利核灾影响的人民，有无辜的居民、消防员、以及那些被征招去清理灾难现场的人员。他们的故事透露出他们至今仍生活在恐惧、愤怒和不安当中。 本书将这些访谈以独白的方式呈现，巨细靡遗的写实描绘，使这场悲剧读起来像世界末日的童话。人们坦白地述说着痛苦，细腻的独白让人身历其境却又难以承受。
 
 sorted by name
 一千零一夜之死神
